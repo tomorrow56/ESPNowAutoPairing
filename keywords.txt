@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For ESPNowAutoPairing
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ESPNowAutoPairing	KEYWORD1
+DeviceRole	KEYWORD1
+pairing_message_t	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+startPairingMode	KEYWORD2
+stopPairingMode	KEYWORD2
+isPaired	KEYWORD2
+getPairedMacAddress	KEYWORD2
+clearPairingData	KEYWORD2
+sendData	KEYWORD2
+setUserRecvCallback	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MASTER	LITERAL1
+SLAVE	LITERAL1
+PAIR_REQUEST	LITERAL1
+PAIR_RESPONSE	LITERAL1
+PAIR_CONFIRM	LITERAL1
+NES_COMMAND	LITERAL1
+NOT_PAIRED	LITERAL1
+PAIRING	LITERAL1
+PAIRED	LITERAL1
